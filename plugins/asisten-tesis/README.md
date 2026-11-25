@@ -37,4 +37,4 @@ Word/PowerPoint tools are chosen dynamically from what is available (`references
 
 ## Attribution
 
-`skills/lugas/` is copied unchanged from [rezaprama/Lugas](https://github.com/rezaprama/Lugas) (commit `d6a7b3c`): code Apache-2.0, editorial data CC BY 4.0. See `skills/lugas/LICENSE`, `NOTICE`, `LICENSES/`. The other skills were written for this plugin, drawing on patterns from public thesis and academic-writing skill repositories on GitHub (no code copied).
+This plugin is licensed under the Apache License 2.0 (`LICENSE`, `NOTICE`). `skills/lugas/` is copied unchanged from [rezaprama/Lugas](https://github.com/rezaprama/Lugas) (commit `d6a7b3c396c3acef18234b21de891b088bc80b1a`), together with the upstream root `LICENSE`, `NOTICE`, `THIRD_PARTY_NOTICES.md`, and `LICENSES/`: Skill code Apache-2.0, `assets/patterns.json` CC BY 4.0. The other skills were written for this plugin, drawing on patterns from public thesis and academic-writing skill repositories on GitHub (no code copied).

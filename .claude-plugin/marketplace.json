@@ -1,16 +1,21 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "belajarcarabelajar-tesis",
+  "description": "Claude Code plugins for writing a master's thesis, from belajarcarabelajar.",
   "owner": {
     "name": "Iwan Kurniawan (belajarcarabelajar)"
   },
   "plugins": [
     {
       "name": "asisten-tesis",
-      "source": "./asisten-tesis",
-      "description": "Master's thesis assistant: Chapter 4, APA 7 sources, supervisor revisions, academic editing, AI slop check, defense slides."
+      "source": "./plugins/asisten-tesis",
+      "description": "Master's thesis assistant: Chapter 4, APA 7 sources, supervisor revisions, academic editing, AI slop check, defense slides.",
+      "author": {
+        "name": "Iwan Kurniawan (belajarcarabelajar)"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/belajarcarabelajar/thesis-assistant",
+      "license": "Apache-2.0"
     }
-  ],
-  "metadata": {
-    "description": "Thesis assistant plugin from belajarcarabelajar."
-  }
+  ]
 }

@@ -5,6 +5,8 @@
   "author": {
     "name": "Iwan Kurniawan (belajarcarabelajar)"
   },
+  "homepage": "https://github.com/belajarcarabelajar/thesis-assistant",
+  "repository": "https://github.com/belajarcarabelajar/thesis-assistant",
   "license": "Apache-2.0",
   "keywords": [
     "thesis",

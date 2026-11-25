@@ -1,0 +1,28 @@
+thesis-assistant
+Copyright 2026 Iwan Kurniawan (belajarcarabelajar)
+
+Licensed under the Apache License, Version 2.0 (see LICENSE), except where a
+file or directory states otherwise.
+
+This product includes Lugas (https://github.com/rezaprama/Lugas), commit
+d6a7b3c396c3acef18234b21de891b088bc80b1a, vendored without modification in
+plugins/asisten-tesis/skills/lugas/. Per its REUSE.toml, the Lugas Skill code
+is licensed under Apache-2.0 and skills/lugas/assets/patterns.json under
+Creative Commons Attribution 4.0 International (CC BY 4.0). License texts:
+plugins/asisten-tesis/skills/lugas/LICENSES/. The Lugas NOTICE follows.
+
+    Lugas
+    Copyright 2026 Reza Prama and Lugas contributors
+
+    Software and Agent Skill code are licensed under the Apache License, Version 2.0.
+    Original editorial data and documentation are licensed under Creative Commons
+    Attribution 4.0 International. File-level mappings appear in REUSE.toml.
+
+    Lugas is an independent project. It is not affiliated with, sponsored by, or
+    endorsed by the University of Manchester, Elsevier, the British Academic Written
+    English Corpus project, or any publisher, university, corpus owner, or standards
+    body cited in its documentation.
+
+    No Manchester Academic Phrasebank inventory, BAWE text, supplied workbook wording,
+    or Elsevier article text is included in the canonical dataset. See PROVENANCE.md and
+    THIRD_PARTY_NOTICES.md.

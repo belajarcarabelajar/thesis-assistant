@@ -8,7 +8,7 @@ No decorative lines, icons, or images. Tables are PowerPoint tables, charts are 
 Without --template the restrained "academic" theme is applied (set "theme": "plain" to turn it off).
 Spec format: ../references/slides-format.md (Indonesian keys from older specs are still accepted).
 """
-import argparse, json, sys
+import argparse, datetime, json, sys
 from pptx import Presentation
 from pptx.chart.data import CategoryChartData
 from pptx.enum.chart import XL_CHART_TYPE, XL_LEGEND_POSITION
@@ -296,6 +296,13 @@ def build(spec, out, template=None):
         theme_name = spec.get("theme", "academic")
         if not template and theme_name in THEMES:
             apply_theme(slide, s, kind, THEMES[theme_name], i, len(spec["slides"]))
+    # python-pptx's default template carries its own author name and 2013 dates; reset them
+    cp = prs.core_properties
+    now = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None, microsecond=0)
+    cp.title = spec["slides"][0].get("title", "") if spec["slides"] else ""
+    cp.author = cp.last_modified_by = cp.comments = ""
+    cp.created = cp.modified = now
+    cp.revision = 1
     prs.save(out)
     return prs
 
