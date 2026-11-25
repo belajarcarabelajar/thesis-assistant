@@ -1,0 +1,16 @@
+{
+  "name": "asisten-tesis",
+  "version": "0.4.0",
+  "description": "Master's thesis assistant for Claude Code: Chapter 4 data analysis and discussion, verified sources in APA 7, revision lists from supervisor feedback, academic editing in English and Indonesian (Lugas), AI slop checks, and editable defense slides with practice Q&A. Deliverables default to English.",
+  "author": {
+    "name": "Iwan Kurniawan (belajarcarabelajar)"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "thesis",
+    "tesis",
+    "academic",
+    "apa7",
+    "defense"
+  ]
+}

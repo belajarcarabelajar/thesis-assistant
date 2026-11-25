@@ -1,0 +1,192 @@
+{
+  "wpm": 120,
+  "theme": "academic",
+  "slides": [
+    {
+      "layout": "title",
+      "title": "The Effect of Service Quality and Price on Customer Satisfaction in Subsidized Housing at PT Griya Contoh Sejahtera",
+      "subtitle": "[Name] · [Student ID] · Master of Business Administration · [Defense date]",
+      "notes": "Good morning, members of the examining committee. Thank you for the opportunity to present my thesis on how service quality and price shape customer satisfaction in subsidized housing."
+    },
+    {
+      "layout": "bullets",
+      "title": "Subsidized housing sales fell 18% in 2025",
+      "bullets": [
+        "Customer complaints centre on two issues:",
+        {
+          "text": "After-sales service",
+          "level": 1
+        },
+        {
+          "text": "Price",
+          "level": 1
+        }
+      ],
+      "notes": "In 2025 the company's subsidized housing sales dropped by eighteen percent. Complaint records point to two recurring issues: after-sales service and price. This gap motivated the study."
+    },
+    {
+      "layout": "bullets",
+      "title": "Three questions: service, price, and both together",
+      "bullets": [
+        "RQ1: Does service quality affect customer satisfaction?",
+        "RQ2: Does price affect customer satisfaction?",
+        "RQ3: Do both affect satisfaction simultaneously?"
+      ],
+      "notes": "The study asks three questions. The first two test each factor on its own; the third tests them together."
+    },
+    {
+      "layout": "diagram",
+      "title": "Research model: two independent variables, one dependent",
+      "boxes": [
+        {
+          "id": "X1",
+          "text": "Service Quality (X1)",
+          "col": 0
+        },
+        {
+          "id": "X2",
+          "text": "Price (X2)",
+          "col": 0
+        },
+        {
+          "id": "Y",
+          "text": "Customer Satisfaction (Y)",
+          "col": 1
+        }
+      ],
+      "arrows": [
+        [
+          "X1",
+          "Y",
+          "RQ1"
+        ],
+        [
+          "X2",
+          "Y",
+          "RQ2"
+        ]
+      ],
+      "notes": "Service quality and price are the independent variables; customer satisfaction is the dependent variable. Each arrow corresponds to one research question."
+    },
+    {
+      "layout": "bullets",
+      "title": "Survey of 60 subsidized-home buyers",
+      "bullets": [
+        "Questionnaire on a 1-5 Likert scale",
+        "Service Quality 4 items, Price 3 items, Satisfaction 3 items",
+        "Multiple linear regression, t and F tests, alpha 0.05"
+      ],
+      "notes": "I surveyed sixty buyers with a five-point Likert questionnaire and analysed the data with multiple linear regression at a five percent significance level."
+    },
+    {
+      "layout": "table",
+      "title": "All three instruments are reliable: Cronbach's alpha 0.788 to 0.847",
+      "table": {
+        "header": [
+          "Variable",
+          "Cronbach's alpha"
+        ],
+        "rows": [
+          [
+            "Service Quality",
+            "0.847"
+          ],
+          [
+            "Price",
+            "0.847"
+          ],
+          [
+            "Customer Satisfaction",
+            "0.788"
+          ]
+        ]
+      },
+      "caption": "Source: thesis manuscript, Chapter 4",
+      "notes": "All three scales exceed the 0.70 threshold, so the instruments are internally consistent."
+    },
+    {
+      "layout": "chart",
+      "title": "Both service quality and price have positive coefficients",
+      "chart": {
+        "type": "column",
+        "categories": [
+          "Service Quality",
+          "Price"
+        ],
+        "series": [
+          {
+            "name": "Coefficient",
+            "values": [
+              0.239,
+              0.265
+            ]
+          }
+        ],
+        "number_format": "0.000"
+      },
+      "caption": "Source: thesis manuscript, Chapter 4. CS = 1.513 + 0.239 SQ + 0.265 P",
+      "notes": "Both coefficients are positive. Price has a slightly larger coefficient than service quality, which matters for how we read the conclusion."
+    },
+    {
+      "layout": "chart",
+      "title": "Together, service and price explain 17.5% of satisfaction",
+      "chart": {
+        "type": "pie",
+        "categories": [
+          "Explained by service and price",
+          "Other factors"
+        ],
+        "series": [
+          {
+            "name": "Share",
+            "values": [
+              0.175,
+              0.825
+            ]
+          }
+        ],
+        "number_format": "0.0%"
+      },
+      "caption": "Source: thesis manuscript, Chapter 4 (R² = 0.175)",
+      "notes": "The model explains seventeen and a half percent of the variation in satisfaction. Most of the variation comes from factors outside this model."
+    },
+    {
+      "layout": "bullets",
+      "title": "Recommendation: improve after-sales service",
+      "bullets": [
+        "After-sales complaints appeared in the background data",
+        "Service quality coefficient is positive: 0.239"
+      ],
+      "notes": "The practical recommendation is to strengthen after-sales service, which customers already complained about."
+    },
+    {
+      "layout": "bullets",
+      "title": "Conclusion: positive direction, limited explanatory power",
+      "bullets": [
+        "RQ1: service quality coefficient is positive (0.239)",
+        "RQ2: price coefficient is positive (0.265)",
+        "RQ3: together they explain 17.5% of satisfaction"
+      ],
+      "notes": "To conclude: both factors point in a positive direction, but together they explain a limited share of satisfaction."
+    },
+    {
+      "layout": "bullets",
+      "title": "Findings hold for one company; wider testing is needed",
+      "bullets": [
+        "Limitation: data from one company, 60 respondents",
+        "82.5% of satisfaction remains unexplained",
+        "Future research: other developers and variables"
+      ],
+      "notes": "The main limitation is that the data come from a single company. Future studies should include other developers and additional variables."
+    },
+    {
+      "layout": "bullets",
+      "style": "dark",
+      "title": "Thank you",
+      "bullets": [
+        "Questions and feedback are welcome"
+      ],
+      "notes": "Thank you. I welcome your questions and feedback."
+    }
+  ]
+}

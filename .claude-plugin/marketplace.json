@@ -1,0 +1,16 @@
+{
+  "name": "belajarcarabelajar-tesis",
+  "owner": {
+    "name": "Iwan Kurniawan (belajarcarabelajar)"
+  },
+  "plugins": [
+    {
+      "name": "asisten-tesis",
+      "source": "./asisten-tesis",
+      "description": "Master's thesis assistant: Chapter 4, APA 7 sources, supervisor revisions, academic editing, AI slop check, defense slides."
+    }
+  ],
+  "metadata": {
+    "description": "Thesis assistant plugin from belajarcarabelajar."
+  }
+}
