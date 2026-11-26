@@ -1,10 +1,10 @@
-# asisten-tesis (v0.4.0)
+# asisten-tesis (v0.5.0)
 
 A Claude Code plugin for writing a master's thesis. Every skill reads `thesis-profile.md` in the thesis working folder (template: `templates/thesis-profile.md`). Deliverables are in **English by default**; set "Thesis language" in the profile to Indonesian to switch.
 
 | Skill | What it does |
 |---|---|
-| `chapter4-analysis` | Data (questionnaires, interviews) → tables and charts from a script → Chapter 4 draft per research question, checked by the author |
+| `chapter4-analysis` | Chapter 4 from the author's own primary and secondary data, following the method in Chapter 3: statistics, qualitative coding, business analysis (root cause, strategy frameworks), solution selection (AHP, Kepner-Tregoe), financial feasibility, implementation plan. Drafts checked by the author |
 | `find-sources` | Find and verify journals (TinyFish, OpenAlex, Crossref), APA 7 reference list |
 | `supervisor-feedback` | Supervisor feedback → tracked revision list → report for the next supervision |
 | `lugas` | Edit, paraphrase, and translate academic text between English and Indonesian without changing numbers, citations, or claim strength |
