@@ -1,5 +1,9 @@
 # Changelog
 
+## asisten-tesis 0.5.1 (2026-11-26)
+
+- `defense-deck`: the slide storyline follows the thesis type and chapter map; business-solution theses get root cause, solution, feasibility, and implementation plan slides instead of findings per research question.
+
 ## asisten-tesis 0.5.0 (2026-11-26)
 
 - `chapter4-analysis` no longer assumes a questionnaire or interview study. It follows the method in Chapter 3 and the campus chapter map: primary data (interviews, FGD, observation, questionnaires, expert judgment) and secondary data (company records, financial statements, industry reports, statistics); business issue analysis (PESTLE, Five Forces, VRIO, SWOT/TOWS), root cause analysis, solution selection (AHP with consistency ratio, Kepner-Tregoe), financial feasibility (NPV, IRR, payback, sensitivity), and implementation plans. Method notes moved to `skills/chapter4-analysis/references/methods.md`.

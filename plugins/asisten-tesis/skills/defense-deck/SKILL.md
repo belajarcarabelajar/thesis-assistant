@@ -15,8 +15,10 @@ Needed: the latest manuscript (Chapters 1-5), the presentation length, and the c
 
 ## Step 1: storyline first, slides later
 
-Draft an outline of 10-15 slides and get the author's approval:
-background and problem → research questions and objectives → brief theoretical framework → method → findings per research question → discussion and managerial implications → conclusions, recommendations, limitations.
+Draft an outline of 10-15 slides that follows the thesis type and chapter map in the profile, and get the author's approval. Typical shapes, to adapt:
+
+- Research thesis: background and problem → research questions and objectives → brief theoretical framework → method → findings per research question → discussion and managerial implications → conclusions, recommendations, limitations.
+- Business solution / final project: business issue and its evidence → business questions → method and data sources → root cause analysis → alternative solutions → selected solution and how it was chosen → feasibility (if assessed) → implementation plan → conclusions and recommendations.
 
 Each slide title is a message sentence, for example "Spare-part price drives purchase decisions most", not "Results".
 

@@ -1,4 +1,4 @@
-# asisten-tesis (v0.5.0)
+# asisten-tesis (v0.5.1)
 
 A Claude Code plugin for writing a master's thesis. Every skill reads `thesis-profile.md` in the thesis working folder (template: `templates/thesis-profile.md`). Deliverables are in **English by default**; set "Thesis language" in the profile to Indonesian to switch.
 
